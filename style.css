@@ -60,17 +60,17 @@ nav {
   margin-top: 10px;
 }
 .home-img{
-  width: 45%;
+  width: 30%;
   height: 75%;
   position: absolute;
   bottom: 0px;
-  right: 30px;
+  right: 100px;
 }
 .group1{
     position: absolute;
     height: 100%;
     bottom: 0%;
-    left: 45%;
+    left: 50%;
     transform: translateX(-50%);
     transition: bottom 2s,left 1s;
 }
@@ -78,7 +78,7 @@ nav {
     bottom: 80px;
 }
 .home-img:hover #girl{
-    left: 30%;
+    left: 10%;
 }
 #about{
     margin: 20% 0px 0px 8%;
