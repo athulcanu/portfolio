@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+}
+#container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+nav {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.logo {
+  width: 110px;
+}
+.list-items {
+  list-style: none;
+  display: inline;
+  margin: 0px 20px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+.link:hover {
+  color: red;
+  text-decoration: underline;
+}
+.home-content {
+  margin: 13% 0px 0px 8%;
+}
+#username {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family: "Pacifico", cursive;
+}
+#iname {
+  font-family: "Pacifico", cursive;
+  color: gold;
+}
+#user-details {
+  line-height: 1.5;
+}
+#download {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+.home-img{
+  width: 45%;
+  height: 75%;
+  position: absolute;
+  bottom: 0px;
+  right: 30px;
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0%;
+    left: 45%;
+    transform: translateX(-50%);
+    transition: bottom 2s,left 1s;
+}
+.home-img:hover #shape{
+    bottom: 80px;
+}
+.home-img:hover #girl{
+    left: 30%;
+}
+#about{
+    margin: 20% 0px 0px 8%;
+}
+.sectionhead{
+    text-align: center;
+}
+.mainhead{
+    font-size: 30px;
+}
+.subhead{
+    font-size: 20px;
+    color: green;
+}
+.aboutbody{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 50px;
+  align-items: center;
+}
+img{
+  width: 85%;
+}
+.aboutcontent{
+  font-size: 20px;
+  text-align: justify;
+}
+.information{
+  margin-top: 1.3rem;
+}
+.infobox{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.skillcontent{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 50px;  
+} 
+/* .progressbar{
+
+} */
+#skillimg{
+    width: 80%;
+}  
+#skills{
+    margin-left:8%;
+}
+.baseBar{
+    height: 0.4rem;
+    background-color: black;
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+}
+.bars{
+   display: flex;
+   position: relative;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem 0px;
+}
